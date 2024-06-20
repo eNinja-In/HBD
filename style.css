@@ -4,7 +4,7 @@ body
   background-repeat: no-repeat;
   background-attachment:fixed;
   background-size: cover;
-  padding:10%;
+  padding:2% 10% 10% 10%;
 
 }
 .book
@@ -39,11 +39,24 @@ body
   background-color: #00a2ff;
   transform: rotateY(180deg);
 }
-#prevbtn, #nextbtn
+.prevbtn, .nextbtn
 {
-  cursor:pointer;
+  cursor: pointer;
   color: white;
   background-color: rgb(255, 72, 72);
   border: 1px solid black;
   font-size: 190%;
+}
+@media(width < 470px)
+{
+  body
+  {
+    padding: 10% 4% 10% 5%;
+  }
+  .pageFront1,.pageFront2,.pageFront3,.pageFront4,.pageFront5,.pageBack1,.pageBack2,.pageBack3,.pageBack4,.pageBack5
+  {
+    height: 20rem;
+    width: 10rem;
+  }
+
 }
