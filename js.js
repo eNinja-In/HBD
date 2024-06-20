@@ -1,6 +1,6 @@
 let bookPage = document.querySelectorAll(".bookPages");
-let nextbtn = document.querySelectorAll("#nextbtn");
-let prevbtn = document.querySelectorAll("#prevbtn");
+let nextbtn = document.querySelectorAll(".nextbtn");
+let prevbtn = document.querySelectorAll(".prevbtn");
 let i = 4;
 
 nextbtn.forEach((nextButton) => {
