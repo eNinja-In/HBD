@@ -10,7 +10,6 @@ body
 }
 .wish
 {
-  /* border:1.6px solid red; */
   background-color: rgba(240, 248, 255, 0.071);
   border-radius: 10px;
   display: flex;
@@ -44,9 +43,9 @@ body
 
 .pageFront1,.pageFront2,.pageFront3,.pageFront4,.pageFront5,.pageBack1,.pageBack2,.pageBack3,.pageBack4,.pageBack5
 {
-  /* display: flex;
+  display: flex;
   flex-wrap:wrap;
-  justify-content: right; */
+  justify-content: right;
 
   border: 1px solid black;
   position: absolute;
@@ -88,7 +87,6 @@ body
   font-size: 100%;
   -webkit-text-fill-color: rgb(0, 0, 0);
   font-weight: bold;
-  /* line-height: 160%; */
 }
 @media(width<700px)
 {
